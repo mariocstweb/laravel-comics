@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    // $data = config('data');
+    return view('layouts.main');
 });
+
+Route::get('movies', function () {
+    $movies = config('comics');
+    // dd($movies);
+    return view('movies', compact('movies'));
+})->name('movies');

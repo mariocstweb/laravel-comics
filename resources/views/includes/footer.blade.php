@@ -112,7 +112,7 @@
         <a href="#"><img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt=""></a>
         <a href="#"><img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt=""></a>
         <a href="#"><img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt=""></a>
-        <a href="#"><img src="{{ Vite::asset('resources/img/footer-youtube-.png') }}" alt=""></a>
+        <a href="#"><img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt=""></a>
       </div>
     </div>
   </div>

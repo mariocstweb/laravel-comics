@@ -12,7 +12,7 @@
           <a href="">COMICS</a>
         </li>
         <li>
-          <a href="">MOVIES</a>
+          <a href="{{ route('movies')}}">MOVIES</a>
         </li>
         <li>
           <a href="">TV</a>

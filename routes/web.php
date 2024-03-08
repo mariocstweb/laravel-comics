@@ -22,3 +22,7 @@ Route::get('movies', function () {
     // dd($movies);
     return view('movies', compact('movies'));
 })->name('movies');
+
+Route::get('comics', function () {
+    return view('comics',);
+})->name('comics');

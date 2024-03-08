@@ -23,6 +23,11 @@ Route::get('movies', function () {
     return view('movies', compact('movies'));
 })->name('movies');
 
-Route::get('comics', function () {
-    return view('comics',);
+Route::get('comics/{index}', function ($index) {
+    $movies = config('comics');
+    $movie = $movies[$index];
+    // dd($movie);
+
+    return view('comics', compact('movie'));
 })->name('comics');
+// ['movie' => $movies[$index]]

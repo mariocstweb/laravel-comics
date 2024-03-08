@@ -6,7 +6,7 @@
 <div class="card-container">
   @foreach($movies as $movie)
   <div class="series-card">
-    <a href="{{ route('comics')}}">
+    <a href="{{ route('comics', ['index' => $loop->index]) }}">
       <img src="{{$movie['thumb']}}" alt="">
       <p>{{$movie['series']}}</p>
     </a>
